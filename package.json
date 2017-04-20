@@ -2,6 +2,7 @@
   "name": "numeric",
   "version": "1.0.0",
   "description": "A numeric puzzle",
+  "main": "core/index.html",
   "scripts": {
     "start": "node app.js"
   },
