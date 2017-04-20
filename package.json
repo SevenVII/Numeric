@@ -2,6 +2,8 @@
   "name": "Numeric",
   "version": "1.0.0",
   "description": "A numeric puzzle",
+  "main": "index.js",
+  "start": "node app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
