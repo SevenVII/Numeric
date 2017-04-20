@@ -2,10 +2,8 @@
   "name": "Numeric",
   "version": "1.0.0",
   "description": "A numeric puzzle",
-  "main": "app.js",
-  "start": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "NullPointerException7",
   "license": "MIT",
