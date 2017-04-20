@@ -43,6 +43,7 @@ footer p{
 #grid{
 	width: 760px;
 	height: 760px;
+	font-family: sans-serif;
 	border-collapse: collapse;
 	margin: 10px auto;
 	float: left;
