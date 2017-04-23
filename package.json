@@ -1,5 +1,5 @@
 {
-  "name": "Numeric",
+  "name": "numericgame",
   "version": "1.0.0",
   "description": "A numeric puzzle",
   "scripts": {
@@ -8,6 +8,16 @@
   "author": "NullPointerException7",
   "license": "MIT",
   "dependencies": {
+    "cheerio": "^0.22.0",
     "express": "^4.15.2"
-  }
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SevenVII/Numeric.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SevenVII/Numeric/issues"
+  },
+  "homepage": "https://github.com/SevenVII/Numeric#readme"
 }
