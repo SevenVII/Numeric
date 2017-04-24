@@ -18,5 +18,3 @@ app.listen(port, function () {
 console.log("5");
 
 AIFunctions.mainFunction();
-
-app.get()
