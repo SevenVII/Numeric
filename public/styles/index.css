@@ -79,6 +79,7 @@ footer p{
 	margin: 20px auto;
 	padding: 5px 20px;
 	text-decoration: none;
+	display: inline;
 	-webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none;   /* Chrome/Safari/Opera */
     -moz-user-select: none;      /* Firefox */
