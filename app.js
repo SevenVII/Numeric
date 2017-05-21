@@ -5,7 +5,6 @@ const AIFunctions = require("./AI/ai.js");
 
 app.use(express.static("public"));
 
-console.log("1");
 app.get('/public/', function (req, res) {
 	res.sendFile("index.html");
 });
@@ -14,7 +13,7 @@ app.listen(port, function () {
 	console.log('Numeric app listening on port ' + port + '!');
 });
 
-app.post("/check", function (req, res) {
+app.get("/check", function (req, res) {
+	console.log("hey");
 	res.send("<p>some html</p>");
 });
-

@@ -56,6 +56,7 @@ footer p{
 }
 
 #steamkey{
+	background: #80ff80;
 	width: 300px;
 	height: 50px;
 	border: 3px solid black;
@@ -68,6 +69,7 @@ footer p{
 }
 
 #check{
+	background: #A9F5F2;
 	color: black;
 	width: 200px;
 	height: 50px;
@@ -87,7 +89,7 @@ footer p{
 }
 
 #check:hover{
-	background-color: #A9F5F2;
+	background-color: #FA5858;
 	cursor: pointer;
 }
 
@@ -111,7 +113,7 @@ td:hover{
 #coordsTable{
 	font-family: sans-serif;
 	border-collapse: collapse;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 #coordsTable td{
