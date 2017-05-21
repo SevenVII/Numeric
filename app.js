@@ -13,7 +13,7 @@ app.listen(port, function () {
 	console.log('Numeric app listening on port ' + port + '!');
 });
 
-app.get("/check", function (req, res) {
+app.post("/check", function (req, res) {
 	console.log("hey");
-	res.send("<p>some html</p>");
+	res.sendFile("index.html");
 });
